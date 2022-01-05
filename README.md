@@ -11,7 +11,7 @@ rapidly creating small projects.
 
 The purpose of the repository is to practice some Git command lines to stop tracking a files or folders that have been tracked in the origin repo.
 
-###Untrack change locally and conserve the file in original repository
+### Untrack change locally and conserve the file in original repository
 We can update local git repository by running following command:
 
 ```git update-index --assume-unchanged <file>```
@@ -21,12 +21,12 @@ To revert the effect of this command, run the following command:
 
 ```git update-index --no-assume-unchanged <file>```
 
-###Stop tracking and Remove from the original repository but not local
+### Stop tracking and Remove from the original repository but not local
 If we stop tracking a file or folder that have been tracked in the initial commit or something like that and 
 this file exists in the original repository **(example: node_modules)** and we want to remove it 
 from repository, the following command can help us:
 
-IMPORTANT! -> Make changes you want in .gitignore file first. 
+**_IMPORTANT!_** -> Make changes you want in .gitignore file first. 
 
 ```git rm -r --cached .```
 
