@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+        <img alt="yii logo" src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
     <h1 align="center">Testing some git command lines in Yii2 Basic App</h1>
     <br>
